@@ -2,7 +2,7 @@
 
 I really, _really_ have tons of trouble learning card games. As a native Ohioan, I know that I should love to play [Euchre](https://en.wikipedia.org/wiki/Euchre). I love watching [poker on TV](https://en.wikipedia.org/wiki/Chris_Moneymaker) but cannot get to the point where I feel comfortable enough with the rules to play it. I _used_ to know how to play Crazy Eights.
 
-To make matters worse, I am really bad at the games that I do now how to play.[^sequence]
+To make matters worse, I am really bad at the games that I do know how to play.[^sequence]
 
 [^sequence]: My mom and cousin have recently introduced me to [Sequence](https://en.wikipedia.org/wiki/Sequence_(game)) ... and I seem to be okay at it. Here's to hoping!
 
