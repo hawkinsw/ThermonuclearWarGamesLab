@@ -15,7 +15,7 @@ class Player:
 class Chemical:
     """A chemical composed of multiple elements."""
 
-    _contents: List[Element]
+    _contents: List['Element']
 
     def __init__(self) -> None:
         self._contents = []
@@ -23,7 +23,7 @@ class Chemical:
     def mass(self) -> float:
         return reduce(lambda c, n: c + n.mass(), self._contents, 0)
 
-    def __add__(self, other: Element) -> "Chemical":
+    def __add__(self, other: 'Element') -> "Chemical":
         a = Chemical()
         a._contents = self._contents.copy()
         a._contents.append(other)
