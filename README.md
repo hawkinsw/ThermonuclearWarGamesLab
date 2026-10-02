@@ -1,3 +1,10 @@
+### Objectives
+
+By the end of this lab you will be able to:
+1. Use classes to create an object-oriented solution to a problem.
+2. Implement a class.
+3. Write Markdown.
+
 ## War Games
 
 I really, _really_ have tons of trouble learning card games. As a native Ohioan, I know that I should love to play [Euchre](https://en.wikipedia.org/wiki/Euchre). I love watching [poker on TV](https://en.wikipedia.org/wiki/Chris_Moneymaker) but cannot get to the point where I feel comfortable enough with the rules to play it. I _used_ to know how to play Crazy Eights.
@@ -275,12 +282,13 @@ Bobapple has 1 wins.
 Alsious wins!
 ```
 
-
 ## Game On
 
-What's next? Let the fun begin -- it's time for you to build your game!! With the ability to model players that you implemented, you can combine the tools that I have provided for you. In particular, there is the `Element`, the `Chemical`, the `PeriodicTable` and the `Game` class.
+What's next? Let the fun begin -- it's time for you to build your game!! You can combine the ability to model players (that you implemented) with other tools that I have provided for you to create a fun game.
 
-Let's take a tour of some of that functionality ... so you can turn it into an addictive game!
+I have provided you the `Element`, the `Chemical`, the `PeriodicTable` and the `Game` class.
+
+Let's take a tour of some of that functionality ... so you can turn it into an [addictive game](https://en.wikipedia.org/wiki/Candy_Crush_Saga)!
 
 ### `Element`
 
@@ -333,7 +341,7 @@ For example, building on the previous example, in
     c2 = c1 + e3
 ```
 
-the instance of `Chemical` in `c2` has a mass of 49.
+the instance of `Chemical` in `c2` has three elements and a total mass of 49.
 
 And, as Steve Jobs would say, there's one more really cool thing about instances of `Chemical`s: You can compare them with the `<` to determine which one has the higher mass:
 
@@ -362,3 +370,21 @@ The final tool that you might find useful is the `Game` class. Besides the abili
 
 ## Just Do It
 
+Ok, time for you to Just Do It. In the spirit of letting you explore and be creative, the requirements for the submission for this lab are very broad. 
+
+There are two requirements:
+
+1. You must submit a [_markdown_](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)-formatted file describing:
+    1. the name of the game you created;
+    2. the mechanics of the game; and
+    3. how to execute the code that you wrote to play the game.
+
+2. You must submit the code for the game (in _any_ format that I will be able to run). **Note**: See (1.3), above.
+
+There are myriad opportunities for extra credit -- anything that you do above and beyond what is required will earn you extra credit. The more creative the additional features, the better!
+
+As an example, in my game, I implemented a Game Flow (like the one on ESPN.com):
+
+![](./espn.png)
+
+![](./gameflow.png)

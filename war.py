@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Optional
 from functools import total_ordering, reduce
 import csv
 import random
@@ -75,10 +75,15 @@ class PeriodicTable:
                 element = Element(l[2], float(l[3]))
                 self._table.append(element)
 
-    def random(self) -> Element:
-        r = random.randint(0, len(self._table))
+    def random(self) -> Optional[Element]:
+        if len(self._table) == 0:
+            return None
+        r = random.randint(0, len(self._table) - 1)
         self._table[-1], self._table[r] = self._table[r], self._table[-1]
-        return self._table.pop()
+        try:
+            return self._table.pop()
+        except IndexError as e:
+            return None
 
 
 class Game:
